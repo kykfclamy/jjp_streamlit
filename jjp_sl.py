@@ -6,9 +6,9 @@ Created on 21/02/2024
 """
 import streamlit as st
 import time
-import pandas as pd
-import plotly.express as px
-import plotly.graph_objects as go
+# import pandas as pd
+# import plotly.express as px
+# import plotly.graph_objects as go
 
 
 st.set_page_config(page_title='JJP - Study',  layout='wide', page_icon=':ambulance:')

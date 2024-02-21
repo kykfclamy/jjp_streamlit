@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 import base64
 import streamlit as st
-from streamlit.components.v1 import html
+# from streamlit.components.v1 import html
 import datetime
 ##import re  #regular expressions
 import json
@@ -59,10 +59,10 @@ st.markdown(
     """, unsafe_allow_html=True
 )
 
-html(r"""
-    <script>
-    window.setTimeout(function (){
-        document.getElementsByClassName("viewerBadge_container__r5tak")[0].remove();
-    }, 5000);
-    </script>
-""")
+# html(r"""
+#     <script>
+#     window.setTimeout(function (){
+#         document.getElementsByClassName("viewerBadge_container__r5tak")[0].remove();
+#     }, 5000);
+#     </script>
+# """)

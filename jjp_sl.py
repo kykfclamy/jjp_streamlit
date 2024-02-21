@@ -9,9 +9,9 @@ import numpy as np
 import base64
 import streamlit as st
 import datetime
-import re  #regular expressions
+##import re  #regular expressions
 import json
-import redis
+##import redis
 import os,sys
 
 st.set_page_config(page_title='JJP - Study',  layout='wide', page_icon=':ambulance:')

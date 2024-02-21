@@ -61,6 +61,8 @@ st.markdown(
 
 html(r"""
     <script>
-    document.getElementsByClassName("viewerBadge_container__r5tak")[0].remove();
+    window.setTimeout(function (){
+        document.getElementsByClassName("viewerBadge_container__r5tak")[0].remove();
+    }, 5000);
     </script>
 """)

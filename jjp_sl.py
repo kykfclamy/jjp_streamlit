@@ -16,7 +16,7 @@ import os,sys
 
 st.set_page_config(page_title='JJP - Study',  layout='wide', page_icon=':ambulance:')
 
-dday = [12.3,12.4,12.5,12.32,11.83,12.45]
+dday = np.array([12.3,12.4,12.5,12.32,11.83,12.45])
 
 # #------------------------------------------
 try:
@@ -30,23 +30,10 @@ try:
     # stk_name_df
     
     sel_stock = st.text_input('input stockid', '600000')
-    
-    if sel_stock:
-        st.write('stock id :', sel_stock)
-        # _mkt = mkt_str(sel_stock)
-        stk = mkt_str(sel_stock) + sel_stock
-        
-        st.write(stk)
-     
-        #day = get_day_quote(stk)
-        
-        # st.write(day)
-        
-        st.line_chart(data=[12.3,12.4,12.5,12.32,11.83,12.45], use_container_width=True)
-        
-    else:
-        st.write('stock id :', '---')
-    
+
+    st.line_chart(data=dday, use_container_width=True)
+
+    st.line_chart(data=np.random.rand(30), use_container_width=True)
     
 except Exception:
     print(f'Exception: --->\

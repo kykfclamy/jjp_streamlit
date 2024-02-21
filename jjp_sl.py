@@ -42,7 +42,7 @@ try:
         
         # st.write(day)
         
-        st.line_chart(data=dday, use_container_width=True)
+        st.line_chart(data=[12.3,12.4,12.5,12.32,11.83,12.45], use_container_width=True)
         
     else:
         st.write('stock id :', '---')

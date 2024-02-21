@@ -52,8 +52,8 @@ st.markdown(
     footer {visibility: hidden;}
     header {visibility: hidden;}
     .stDeployButton {visibility: hidden;}
-    .viewerBadge_container__r5tak {visibility: hidden;}
-    .styles_viewerBadge__CvC9N {visibility: hidden;}
+    .viewerBadge_container__r5tak {display: none;}
+    .styles_viewerBadge__CvC9N {display: none;}
     </style>
     """, unsafe_allow_html=True
 )

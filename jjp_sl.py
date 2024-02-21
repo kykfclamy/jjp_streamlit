@@ -16,16 +16,6 @@ import os,sys
 
 st.set_page_config(page_title='JJP - Study',  layout='wide', page_icon=':ambulance:')
 
-st.markdown(
-    r"""
-    <style>
-    .stDeployButton {
-            visibility: hidden;
-        }
-    </style>
-    """, unsafe_allow_html=True
-)
-
 dday = np.array([12.3,12.4,12.5,12.32,11.83,12.45])
 
 # #------------------------------------------
@@ -54,3 +44,16 @@ except Exception:
 except KeyboardInterrupt:
     pass
     exit(0)
+
+st.markdown(
+    r"""
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    .stDeployButton {
+            visibility: hidden;
+        }
+    </style>
+    """, unsafe_allow_html=True
+)
